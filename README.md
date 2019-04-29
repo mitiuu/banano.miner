@@ -35,12 +35,12 @@ In this example we got (4 * 12 * 2) give us 96 threads
 ##### `Build`
 To build image from the git repo
 ```
-git clone https://github.com/anzerr/banano.miner.git miner && \
+git clone https://github.com/sgorki/banano.miner.git miner && \
 	cd miner && \
-	docker build -t anzerr/bananominer:$(node -e "console.log(require('./package.json').version)") -t anzerr/bananominer:latest .
+	docker build -t sgorki/bananominer:$(node -e "console.log(require('./package.json').version)") -t sgorki/bananominer:latest .
 
-docker push anzerr/bananominer:$(node -e "console.log(require('./package.json').version)")
-docker push anzerr/bananominer:latest
+docker push sgorki/bananominer:$(node -e "console.log(require('./package.json').version)")
+docker push sgorki/bananominer:latest
 ```
 
 ### `NodeJs`
@@ -48,7 +48,7 @@ Installing nodejs can be found [here](https://nodejs.org/en/download/package-man
 
 The package.json is missing puppeteer as it's globaly insalled in the Dockerfile. To setup the project run these commands
 ```
-git clone https://github.com/anzerr/banano.miner.git miner && \
+git clone https://github.com/sgorki/banano.miner.git miner && \
 	cd miner && \
 	npm i --only=prod && \
 	npm i --save puppeteer@1.8.0
