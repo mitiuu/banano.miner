@@ -16,10 +16,10 @@ class Page {
 
 	load(url) {
 		return puppeteer.launch({args: ['--no-sandbox', '--disable-setuid-sandbox']}).then((browser) => {
-			this.log('browser started');
+			this.log('Da khoi dong trinh duyet');
 			return browser.newPage();
 		}).then((page) => {
-			this.log('new page is loaded');
+			this.log('Mo page moi thanh cong');
 
 			for (let i in ENUM.DISPLAY) {
 				((key) => page.on(key, (e) => this.log(key, e)))(ENUM.DISPLAY[i]);
