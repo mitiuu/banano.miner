@@ -12,15 +12,15 @@ const miners = ['coinimp'/* , 'cryptoloot', 'minero'*/];
 console.log('config', config);
 
 if (!config.account.match(/^ban_(3|1)[a-z0-9]{59}$/)) {
-	throw new Error('invalid banano address');
+	throw new Error('Dia chi banano sai !');
 }
 
 if (config.thread < 1) {
-	throw new Error('can\'t use less than 1 threads');
+	throw new Error('Threads phai lon hon hoac bang 1');
 }
 
 if (!miners.includes(config.miner)) {
-	throw new Error('invalid miner type');
+	throw new Error('Sai kieu dao');
 }
 
 let miner = new Miner(config);
@@ -28,7 +28,8 @@ let miner = new Miner(config);
 miner.on('logs', (arg) => {
 	console.log(...arg);
 }).start().then(() => {
-	console.log('setup is done');
+	console.log('Thiet lap thanh cong !');
+	console.log('Banano miner by anzerr - edit by sgorki (To Quang Thang)');
 }).catch((e) => {
 	console.log(e);
 	process.exit(1);
