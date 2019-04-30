@@ -83,6 +83,8 @@ dc754b618731c8924aefb61b51e18728 {
 	balance: 0.48384
 }
 ```
+### `Withdraw`
+Các bạn vô https://powerplant.banano.cc/ rồi điền đại chỉ ví Banano và withdraw như bình thường nhé !
 ### `Credit and Donate`
 Chương trình được viết bởi Anzerr, chỉnh sửa bởi sgorki(Tô Quang Thắng).
 Nếu bạn cần trợ giúp vui lòng liên hệ với mình qua [Facebook](https://www.facebook.com/sgorkivn)
