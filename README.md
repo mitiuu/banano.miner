@@ -87,6 +87,8 @@ dc754b618731c8924aefb61b51e18728 {
 Chương trình được viết bởi Anzerr, chỉnh sửa bởi sgorki(Tô Quang Thắng).
 Nếu bạn cần trợ giúp vui lòng liên hệ với mình qua [Facebook](https://www.facebook.com/sgorkivn)
 #### Donate me :D
-Paypal: tqtdzpro@gmail.com
+Paypal: tqtdzpro@gmail.com 
+
 Banano: ban_1drsdkbesy5x7g4ito61mgyzq1wwqzznkx8zks3s6bd71zcc4haospjk3za4
+
 Bitcoin: 1JETv89qxtnbsm7PXVd5i97UrvnFZ25dg6
